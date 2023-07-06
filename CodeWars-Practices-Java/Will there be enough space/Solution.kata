@@ -1,0 +1,7 @@
+public class Bob {
+  public static int enough(int cap, int on, int wait){
+  // your code here
+    int available=cap-on;
+    return available>=wait ? 0 : Math.abs(available-wait);
+  }
+}
