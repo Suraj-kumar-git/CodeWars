@@ -6,6 +6,7 @@ public class Kata
     if(n<0) return null;
     if(n==0) return "1";
     BigInteger fact = BigInteger.ONE;
+    //BigInteger fact = BigInteger.valueOf(1);
     while(n>1){
       fact=fact.multiply(BigInteger.valueOf(n));
       n--;
